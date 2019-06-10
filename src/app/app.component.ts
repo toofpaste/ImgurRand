@@ -11,5 +11,4 @@ export class AppComponent {
   currentFocus: string = 'Angular Homework';
   tasks: Task = new Task('temp')
   tak: Task[] = this.tasks.genUrl();
-  
 }

@@ -5,7 +5,7 @@ export class Task{
   genUrl(){
     var ic = 0;
     var hold = [];
-    while(ic <= 100){
+    while(ic <= 1000){
     ic++;
     if(ic >= 100){
       this.done = true;

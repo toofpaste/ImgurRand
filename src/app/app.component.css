@@ -2,7 +2,9 @@ img{
   height: 40px;
   width: 40px;
 }
-
+#hide {
+  display: none;
+}
 /*
 Accept-Ranges →bytes
 Access-Control-Allow-Methods →GET, OPTIONS
