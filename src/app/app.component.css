@@ -1,0 +1,78 @@
+img{
+  height: 40px;
+  width: 40px;
+}
+
+/*
+Accept-Ranges →bytes
+Access-Control-Allow-Methods →GET, OPTIONS
+Access-Control-Allow-Origin →*
+Age →22654590
+Connection →keep-alive
+Content-Length →503
+Content-Type →image/png
+Date →Mon, 10 Jun 2019 23:08:51 GMT
+ETag →"d835884373f4d6c8f24742ceabe74946"
+Last-Modified →Wed, 14 May 2014 05:44:36 GMT
+Server →cat factory 1.0
+X-Cache →HIT, HIT
+X-Cache-Hits →1, 176271
+X-Served-By →cache-iad2131-IAD, cache-sea1021-SEA
+X-Timer →S1560208131.295319,VS0,VE0
+cache-control →public, max-age=31536000
+
+Accept-Ranges →bytes
+Access-Control-Allow-Methods →GET, OPTIONS
+Access-Control-Allow-Origin →*
+Age →22654616
+Connection →keep-alive
+Content-Length →503
+Content-Type →image/png
+Date →Mon, 10 Jun 2019 23:09:17 GMT
+ETag →"d835884373f4d6c8f24742ceabe74946"
+Last-Modified →Wed, 14 May 2014 05:44:36 GMT
+Server →cat factory 1.0
+X-Cache →HIT, HIT
+X-Cache-Hits →1, 176289
+X-Served-By →cache-iad2131-IAD, cache-sea1021-SEA
+X-Timer →S1560208158.827696,VS0,VE0
+cache-control →public, max-age=31536000
+
+
+works below
+
+
+Accept-Ranges →bytes
+Access-Control-Allow-Methods →GET, OPTIONS
+Access-Control-Allow-Origin →*
+Age →233
+Connection →keep-alive
+Content-Length →11744
+Content-Type →image/jpeg
+Date →Mon, 10 Jun 2019 23:09:41 GMT
+ETag →"d5dad890bfc37eccf1226453410a0db2"
+Last-Modified →Thu, 01 Nov 2012 11:59:58 GMT
+Server →cat factory 1.0
+X-Cache →MISS, HIT
+X-Cache-Hits →0, 1
+X-Served-By →cache-bwi5142-BWI, cache-sea1021-SEA
+X-Timer →S1560208182.770835,VS0,VE1
+cache-control →public, max-age=31536000
+
+Accept-Ranges →bytes
+Access-Control-Allow-Methods →GET, OPTIONS
+Access-Control-Allow-Origin →*
+Age →255
+Connection →keep-alive
+Content-Length →158883
+Content-Type →image/jpeg
+Date →Mon, 10 Jun 2019 23:10:03 GMT
+ETag →"84d15d346b2ad013930f59ea72d6390f"
+Last-Modified →Sun, 15 Jan 2012 05:18:32 GMT
+Server →cat factory 1.0
+X-Cache →MISS, HIT
+X-Cache-Hits →0, 1
+X-Served-By →cache-bwi5151-BWI, cache-sea1021-SEA
+X-Timer →S1560208204.944798,VS0,VE5
+cache-control →public, max-age=31536000
+x-amz-storage-class →STANDARD_IA */

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Task} from './models/task.models';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title: string = 'Angular';
+  currentFocus: string = 'Angular Homework';
+  tasks: Task = new Task('temp')
+  tak: Task[] = this.tasks.genUrl();
+  
 }
