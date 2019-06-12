@@ -5,7 +5,7 @@ export class Task{
   genUrl(){
     var ic = 0;
     var hold = [];
-    while(ic <= 1000){
+    while(ic <= 200){
     ic++;
     if(ic >= 100){
       this.done = true;
@@ -19,8 +19,7 @@ export class Task{
     var link = "https://i.imgur.com/" + link1 + link2 + link3 + link4 + link5 + ".jpg";
     this.description = link;
     hold.push(link);
-    //this.testImage();
-  }
+    }
     return hold;
   }
 }

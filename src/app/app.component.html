@@ -1,8 +1,11 @@
 <!--The content below is only a placeholder and can be replaced.-->
+<p *ngIf="ready">Ready</p>
+<button class="btn btn-success" (click)=showImage(tak)>Show</button>
 <div style="text-align:center">
-  <ul id = "hide">
-    <li *ngFor="let img of tak" id ="{{img}}"><a href="{{img}}"><img src="{{img}}" alt="FUCK" ></a></li>
-  </ul>
-  <ul id = "show">
-    <li *ngFor="let img1 of tak1"><a href="{{img1}}"><img src="{{img1}}" alt="FUCK" ></a></li>
-  </ul>
+  <ol id = "show" *ngIf="showClick">
+    <li *ngFor="let img1 of tak1"><a href="{{img1}}" target="_blank"><img src="https://i.imgur.com/g3D5jNz.jpg" alt="FUCK" ></a></li>
+  </ol>
+  <div id = "hide" *ngFor="let img of tak">
+    <img id ="{{img}}" src="{{img}}" alt="FUCK" >
+  </div>
+</div>
